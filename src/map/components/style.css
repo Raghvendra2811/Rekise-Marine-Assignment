@@ -1,0 +1,33 @@
+.custom-button {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text for contrast */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    border: 2px solid #555; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover and focus transitions */
+  }
+
+  .custom-button:hover {
+    background-color: #444; /* Slightly lighter background on hover */
+    border-color: #666; /* Lighter border on hover */
+  }
+
+  .custom-button:active {
+    background-color: #222; /* Darker background on click */
+    border-color: #444; /* Darker border on click */
+  }
+
+  .custom-button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px #888; /* Add glow effect */
+  }
+
+  .custom-button:disabled {
+    background-color: #555; /* Greyed out for disabled */
+    color: #888; /* Dimmed text for disabled state */
+    border-color: #666; /* Subtle border for disabled */
+    cursor: not-allowed; /* Disabled cursor */
+  }
+
